@@ -78,7 +78,7 @@ export default class GetUserName extends React.Component {
 
                 <View style={{ alignSelf: 'center' }}>
                     <View style={[styles.card2, { backgroundColor: '#d0efe0' }]}>
-                        <Text style={styles.title}>User-ID</Text>
+                        <Text style={styles.title}>Sign-Up</Text>
                         <Makiko
                             label={'Enter mobile number'}
                             iconClass={FontAwesomeIcon}
