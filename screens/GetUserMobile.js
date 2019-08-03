@@ -27,7 +27,7 @@ export default class GetUserName extends React.Component {
     saveValueFunction = () => {
         if (this.state.mobile) {
             AsyncStorage.setItem('mobile', this.state.mobile);
-            this.props.navigation.navigate("");
+            this.props.navigation.navigate("DashBoard");
             // this.setState({ userName: '' })
         } else {
             this.dropdown.alertWithType(
@@ -68,7 +68,7 @@ export default class GetUserName extends React.Component {
                 <Text>{"\n"}</Text>
 
                 <View style={{alignItems: 'center', textAlign: 'center', marginTop: 30}}>
-                <Animatable.Text style={{textAlign: 'center'}} animation="flash" iterationCount={"infinite"} direction="alternate" delay={2000}>
+                <Animatable.Text style={{textAlign: 'center'}} animation='fadeIn' iterationCount={"infinite"} direction="alternate" delay={3000}>
                     <Text style={{fontSize: 20, color: 'green', textAlign: 'center'}}>Your user name is: <Text style={{color: 'black'}}>{this.state.GetUserName}</Text> </Text>
                 </Animatable.Text>
                 </View>

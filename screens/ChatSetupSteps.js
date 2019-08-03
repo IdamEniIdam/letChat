@@ -30,7 +30,7 @@ const color = isLight => backgroundColor(!isLight);
 
 const Done = ({ isLight, ...props }) => (
   <Button
-    title={'Done'}
+    title={'Signup'}
     buttonStyle={{
       backgroundColor: backgroundColor(isLight),
       marginRight: 10
@@ -128,8 +128,8 @@ const Next = ({ isLight, ...props }) => (
           {
             backgroundColor: '#999',
             image: <Image style={{ borderRadius: 50 }}  source={require("../assets/images/three.png")} />,
-            title: 'Click on Done Below',
-            subtitle: "To start your setUp!",
+            title: 'Click on Singup Below',
+            subtitle: "To start your signup!",
           },
         ]}
       /> 

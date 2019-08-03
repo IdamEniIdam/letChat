@@ -5,6 +5,7 @@ import SplashScreen from './screens/SplashScreen';
 import ChatSetupSteps from './screens/ChatSetupSteps';
 import GetUserName from './screens/GetUserName';
 import GetUserMobile from './screens/GetUserMobile';
+import DashBoard from './screens/DashBoard';
 
 const AppNavigator = createStackNavigator(
   {
@@ -28,6 +29,11 @@ const AppNavigator = createStackNavigator(
     },
     GetUserMobile: {
       screen: GetUserMobile,
+      navigationOptions: {
+        header: null
+      }
+    }, DashBoard: {
+      screen: DashBoard,
       navigationOptions: {
         header: null
       }
