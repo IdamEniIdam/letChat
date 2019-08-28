@@ -20,6 +20,20 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
+    "android": {
+      "versionCode": 14,
+      "package": "com.nimcmobile",
+      "permissions": [
+        "CAMERA",
+        "CAMERA_ROLL",
+        "READ_EXTERNAL_STORAGE",
+        "VIBRATE",
+        "READ_PHONE_STATE",
+        "USE_FINGERPRINT",
+        "WRITE_EXTERNAL_STORAGE",
+        "BILLING"
+      ]
+    },
     "assetBundlePatterns": [
       "**/*"
     ],

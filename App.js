@@ -6,6 +6,8 @@ import ChatSetupSteps from './screens/ChatSetupSteps';
 import GetUserName from './screens/GetUserName';
 import GetUserMobile from './screens/GetUserMobile';
 import DashBoard from './screens/DashBoard';
+import ChatRoom from './screens/ChatRoom';
+import ShareMessage from './screens/ShareMessage';
 
 const AppNavigator = createStackNavigator(
   {
@@ -34,6 +36,18 @@ const AppNavigator = createStackNavigator(
       }
     }, DashBoard: {
       screen: DashBoard,
+      navigationOptions: {
+        header: null
+      }
+    },
+    ChatRoom: {
+      screen: ChatRoom,
+      navigationOptions: {
+        header: null
+      }
+    },
+    ShareMessage: {
+      screen: ShareMessage,
       navigationOptions: {
         header: null
       }
